@@ -17,7 +17,7 @@ public class Quotient {
         try {
             System.out.println(number1+"/"+number2+" = "+(number1/number2));            
         }        
-        catch (ArithemeticException ex){
+        catch (ArithmeticException e){
             System.out.println("Exception: Divisor cannot be zero");
                
         }
